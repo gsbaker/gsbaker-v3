@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const Description = props => {
     return (
@@ -17,7 +16,5 @@ const Description = props => {
         </div>
     );
 };
-
-Description.propTypes = {};
 
 export default Description;

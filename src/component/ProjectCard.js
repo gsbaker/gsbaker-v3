@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Image from "./Image";
 
 const ProjectCard = ({ title, category, image, shadow }) => {
@@ -14,10 +13,6 @@ const ProjectCard = ({ title, category, image, shadow }) => {
             </div>
         </div>
     );
-};
-
-ProjectCard.propTypes = {
-
 };
 
 export default ProjectCard;

@@ -1,6 +1,5 @@
 import TopBanner from "./component/home/TopBanner";
 import Description from "./component/home/Description";
-import LocationCard from "./component/home/LocationCard";
 import Carousel from "./component/carousel/Carousel";
 import FactCard from "./component/home/FactCard";
 import React, {useState} from "react";

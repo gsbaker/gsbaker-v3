@@ -19,8 +19,4 @@ const TopBanner = props => {
     );
 };
 
-TopBanner.propTypes = {
-
-};
-
 export default TopBanner;

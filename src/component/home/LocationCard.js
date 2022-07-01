@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Image from "../Image";
 
 const LocationCard = ({ title, subtitle, year, colorScheme, image }) => {
@@ -18,10 +17,6 @@ const LocationCard = ({ title, subtitle, year, colorScheme, image }) => {
 
         </div>
     );
-};
-
-LocationCard.propTypes = {
-
 };
 
 export default LocationCard;

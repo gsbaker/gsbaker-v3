@@ -13,8 +13,4 @@ const FactCard = ({ className, text, colorScheme }) => {
     );
 };
 
-FactCard.propTypes = {
-
-};
-
 export default FactCard;

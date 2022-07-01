@@ -42,7 +42,7 @@ const Navigation = () => {
                             </NavLink>
                         </li>
                         <li className={'nav-item'}>
-                            <a href={process.env.PUBLIC_URL + 'cv.pdf'} className={'nav-link'} target={'_blank'}>Résumé</a>
+                            <a href={process.env.PUBLIC_URL + 'cv.pdf'} className={'nav-link'} target={'_blank'} rel={'noreferrer'}>Résumé</a>
                         </li>
                     </ul>
                     <div className={'d-flex navbar-nav'}>

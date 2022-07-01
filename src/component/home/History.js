@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import LocationCard from "./LocationCard";
 
 const History = props => {
@@ -26,10 +25,6 @@ const History = props => {
             />
         </div>
     );
-};
-
-History.propTypes = {
-
 };
 
 export default History;

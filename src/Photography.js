@@ -1,4 +1,3 @@
-import Image from "./component/Image";
 import GalleryItem from "./component/GalleryItem";
 
 const Photography = () => (

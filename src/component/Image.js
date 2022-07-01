@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const Image = ({ src, id, classes }) => {
     return (
@@ -10,14 +9,6 @@ const Image = ({ src, id, classes }) => {
             id={id}
         />
     );
-};
-
-Image.defaultProps = {
-    id: '',
-}
-
-Image.propTypes = {
-
 };
 
 export default Image;

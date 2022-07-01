@@ -1,7 +1,4 @@
-import React, {useState} from 'react';
-import PropTypes from 'prop-types';
-import Image from "../Image";
-import CarouselItem from "./CarouselItem";
+import React from 'react';
 
 const Carousel = ({ children }) => {
     return (
@@ -21,10 +18,6 @@ const Carousel = ({ children }) => {
             </button>
         </div>
     );
-};
-
-Carousel.propTypes = {
-
 };
 
 export default Carousel;
