@@ -1,0 +1,173 @@
+$bg-light: #fff;
+$bg-dark: #111;
+$accent-light: #F5F5F5;
+$accent-dark: #222;
+$accent-dark-2: #191919;
+$color-light: #5C5C5C;
+$heading-color-light: #292929;
+$midnight-blue: #000052;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $bg-dark;
+    color: #fff;
+  }
+
+  nav {
+    background-color: $bg-dark;
+  }
+
+  .bg-accent {
+    background-color: $accent-dark;
+  }
+
+  .bg-accent-darker {
+    background-color: $accent-dark-2;
+  }
+
+  .text-navy {
+    color: #C2C2FF;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: $bg-light;
+    color: $color-light;
+  }
+
+  h1, h2 {
+    color: $heading-color-light;
+  }
+
+  nav {
+    background-color: $bg-light;
+  }
+
+  .text-navy {
+    color: #000052;
+  }
+
+  .bg-accent {
+    background-color: $accent-light;
+  }
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+
+
+h1, h2 {
+  //font-family: 'Andada Pro', serif;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+
+}
+
+// accent classes
+
+.bg-accent {
+
+}
+
+.bg-red {
+  background-color: #FF9999;
+  color: #3D0000;
+}
+
+.bg-blue {
+  background-color: #C2C2FF;
+  color: #000029;
+}
+
+.bg-yellow {
+  background-color: #FFFFAD;
+  color: #292900;
+}
+
+.text-navy {
+  border: 1px solid darkgoldenrod;
+  display: inline-block;
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 1px;
+    height: 500px;
+    background: darkgoldenrod;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -2px;
+    //z-index: 1031;
+  }
+}
+
+// Text Selection
+::-moz-selection { /* Firefox */
+  color: navy;
+  background: lightblue;
+}
+
+::selection {
+  color: navy;
+  background: lightblue;
+}
+
+// Font Utilities
+.font-serif {
+  font-family: Georgia, serif;
+}
+
+.carousel {
+  max-width: 400px;
+  img {
+    max-height: 400px;
+    max-width: 400px;
+  }
+
+}
+
+img {
+  /*background-color: white;*/
+  /*border-radius: 10px;*/
+  /*filter: grayscale(100%);*/
+}
+
+.location-card-img {
+  max-width: 40px;
+}
+
+#description {
+  background-color: #000052;
+  color: white;
+}
+
+#profile_picture {
+  max-width: 400px;
+  width: 95%;
+  filter: grayscale(100%);
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.blue-gradient {
+  background: -webkit-linear-gradient(#00007A, #4747FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fact-card {
+  min-width: 320px;
+  max-width: 320px;
+}
+
+.photography {
+  background-color: white;
+  //font-family: Georgia, serif;
+}
