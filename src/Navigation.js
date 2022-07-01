@@ -49,6 +49,7 @@ const Navigation = () => {
                         <a
                             href={'https://www.twitter.com/gsbaker_'}
                             target={'_blank'}
+                            rel={'noreferrer'}
                             className={'nav-link'}
                         >
                             <i className="bi bi-twitter"/>
@@ -56,6 +57,7 @@ const Navigation = () => {
                         <a
                             href={'https://www.linkedin.com/in/georgestephenbaker'}
                             target={'_blank'}
+                            rel={'noreferrer'}
                             className={'nav-link'}
                         >
                             <i className="bi bi-linkedin"/>
@@ -63,6 +65,7 @@ const Navigation = () => {
                         <a
                             href={'https://www.github.com/gsbaker'}
                             target={'_blank'}
+                            rel={'noreferrer'}
                             className={'nav-link'}
                         >
                             <i className="bi bi-github"/>
