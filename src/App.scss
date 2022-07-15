@@ -60,7 +60,6 @@ body {
 
 
 h1, h2 {
-  //font-family: 'Andada Pro', serif;
   font-family: Georgia, serif;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -68,10 +67,6 @@ h1, h2 {
 }
 
 // accent classes
-
-.bg-accent {
-
-}
 
 .bg-red {
   background-color: #FF9999;
@@ -131,12 +126,6 @@ h1, h2 {
 
 }
 
-img {
-  /*background-color: white;*/
-  /*border-radius: 10px;*/
-  /*filter: grayscale(100%);*/
-}
-
 .location-card-img {
   max-width: 40px;
 }
@@ -169,5 +158,8 @@ img {
 
 .photography {
   background-color: white;
-  //font-family: Georgia, serif;
+}
+
+.project-card-img {
+  max-height: 826px;
 }

@@ -4,6 +4,11 @@ const Projects = () => {
     return (
         <div className='pt-3 container'>
             <ProjectCard
+                title={"Golden Shoe"}
+                category={"Web App"}
+                image={"golden-shoe.png"}
+            />
+            <ProjectCard
                 title={"Smart Garage"}
                 category={"iOS"}
                 image={'smart_garage.png'}
@@ -11,8 +16,7 @@ const Projects = () => {
             <ProjectCard
                 title={"Visual Perception Quiz"}
                 category={"Web App"}
-                image={'vp-quiz.png'}
-                shadow={true}
+                image={'visual-perception-quiz.png'}
             />
             <ProjectCard
                 title={"Uniqlo Redesigned"}
